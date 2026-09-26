@@ -72,7 +72,7 @@ def login():
             return redirect(url_for('login'))
 
     else:
-        print(generate_password_hash('2026'))
+        print(generate_password_hash('1234'))
         return render_template('loguin.html')
 @app.route('/logout')
 def logout():
